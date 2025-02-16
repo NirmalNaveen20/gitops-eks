@@ -1,4 +1,4 @@
-######################## VARIABLES ######################## test
+######################## VARIABLES ######################## tests
 
 data "aws_availability_zones" "availability_zones" {}
 

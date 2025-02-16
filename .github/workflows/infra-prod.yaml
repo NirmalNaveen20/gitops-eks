@@ -5,12 +5,12 @@ on:
     branches:
       - main
     paths:
-      - "infra/**"
+      - "infra"
   pull_request:
     branches:
       - main
     paths:
-      - "infra/**"
+      - "infra"
   
 jobs:
   terraform:
@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: "infra/**"
+        working-directory: "infra"
     steps:
       - name: Checkout
         uses: actions/checkout@v2
