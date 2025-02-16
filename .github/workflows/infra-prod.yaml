@@ -6,13 +6,11 @@ on:
       - main
     paths:
       - "infra/**"
-      - "!**/README.md"
   pull_request:
     branches:
       - main
     paths:
       - "infra/**"
-      - "!**/README.md"
   
 jobs:
   terraform:
