@@ -1,4 +1,4 @@
-# Setting and locking the Dependencies to specific versions testsfddf
+# Setting and locking the Dependencies to specific versions wov
 terraform {
   required_providers {
 
