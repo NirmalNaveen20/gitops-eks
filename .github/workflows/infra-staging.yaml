@@ -7,13 +7,11 @@ on:
         - staging
     paths:
       - "infra/**"
-      - "!**/README.md"
   pull_request:
     branches:
         - staging
     paths:
       - "infra/**"
-      - "!**/README.md" 
           
 jobs:
   terraform:
