@@ -1,4 +1,4 @@
-// Pseudo Code
+// Pseudo Codeu
 // if(environment==staging){
 //     url = staging.gitops.rohitsalecha.com
 // }elseif(environment==prod){
