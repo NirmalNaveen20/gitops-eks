@@ -34,7 +34,7 @@ terraform {
 
   }
   # Setting the Terraform version
-  required_version = ">= 1.3.2"
+  required_version = ">= 0.12.19"
 }
 
 # Feeding the AWS providers with the data it needs
