@@ -5,13 +5,13 @@ terraform {
     # AWS Cloud Provider
     aws = {
       source  = "hashicorp/aws"
-      version = "4.10"
+      version = ">= 5.83"
     }
 
     # TLS provider to generate SSH Keys
     tls = {
       source  = "hashicorp/tls"
-      version = "3.1.0"
+      version = ">= 3.0"
     }
 
     # Provider to generate random numbers
@@ -29,12 +29,12 @@ terraform {
     # Provider to interact with kubernetes clusters
     kubernetes = {
       source  = "hashicorp/kubernetes"
-      version = "2.10.0"
+      version = "2.35.0"
     }
 
   }
   # Setting the Terraform version
-  required_version = ">= 1.1.0"
+  required_version = ">= 1.3.2"
 }
 
 # Feeding the AWS providers with the data it needs
