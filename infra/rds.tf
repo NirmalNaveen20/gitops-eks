@@ -96,7 +96,7 @@ module "ssmw-db-password" {
   environment           = var.environment
 }
 
-# Write the DB end point URL in SSM
+# Write the DB end point URL in SSM test
 module "ssmw-db-endpoint" {
   source = "./modules/ssmw"
 
