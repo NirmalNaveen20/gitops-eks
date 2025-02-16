@@ -25,7 +25,7 @@ jobs:
 
       - name: Uncomment Terraform Cloud Backend Configuration file
         id: uncomment
-        run: sed -i 's/^#*//' backend.tf
+        run: sed -i '/^#terraform {/,/^#}/s/^#//' backend.tf
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v1
